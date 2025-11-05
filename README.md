@@ -1,4 +1,4 @@
-# Lab 10: String-Based C++ Calculator 🧮
+# String-Based C++ Calculator
 
 This project is a C++ program that implements string-based arithmetic for arbitrary-precision decimal numbers. It is designed to read pairs of numbers from a file, validate them, and perform addition, all without converting the strings to native numeric types (like `double` or `int`).
 
