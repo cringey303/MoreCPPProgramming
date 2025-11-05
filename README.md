@@ -2,8 +2,6 @@
 
 This project is a C++ program that implements string-based arithmetic for arbitrary-precision decimal numbers. It is designed to read pairs of numbers from a file, validate them, and perform addition, all without converting the strings to native numeric types (like `double` or `int`).
 
----
-
 ## Features
 
 * **File Input:** Reads pairs of numbers from a user-specified file.
