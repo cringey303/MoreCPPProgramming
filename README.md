@@ -2,11 +2,9 @@
 
 This project is a C++ program that implements string-based arithmetic for arbitrary-precision decimal numbers. It is designed to read pairs of numbers from a file, validate them, and perform addition, all without converting the strings to native numeric types (like `double` or `int`).
 
-This project fulfills the requirements for EECS 348 Lab 10.
-
 ---
 
-## 🚀 Features
+## Features
 
 * **File Input:** Reads pairs of numbers from a user-specified file.
 * **String-Only Arithmetic:** Implements string-only addition, correctly handling positive/negative numbers and decimal alignment.
@@ -15,7 +13,7 @@ This project fulfills the requirements for EECS 348 Lab 10.
 
 ---
 
-## 🔨 How to Build
+## How to Build
 
 The repository includes a `Makefile` for easy compilation.
 
@@ -30,7 +28,7 @@ The repository includes a `Makefile` for easy compilation.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Once built, you can run the program from your terminal.
 
