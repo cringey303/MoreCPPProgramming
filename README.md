@@ -1,15 +1,13 @@
 # String-Based C++ Calculator
 
-This project is a C++ program that implements string-based arithmetic for arbitrary-precision decimal numbers. It is designed to read pairs of numbers from a file, validate them, and perform addition, all without converting the strings to native numeric types (like `double` or `int`).
+This is a C++ program that implements string-based arithmetic operations in C++ without converting strings to built-in numeric types
 
 ## Features
 
 * **File Input:** Reads pairs of numbers from a user-specified file.
-* **String-Only Arithmetic:** Implements string-only addition, correctly handling positive/negative numbers and decimal alignment.
-* **Custom Validation:** Validates each number string against strict formatting rules (`(+|-)A(.B)`) without using `try-catch` or standard conversion functions.
-* **Error Handling:** Detects and reports malformed lines (e.g., too few/too many numbers) and invalid number formats.
-
----
+* **String-Only Arithmetic:** Implements string-only addition, handling positive/negative numbers and decimal alignment.
+* **Custom Validation:** Validates each number string with strict formatting rules (`(+|-)A(.B)`) without using `try-catch` or standard conversion functions.
+* **Error Handling:** Detects and reports bad file and invalid number formats.
 
 ## How to Build
 
@@ -23,8 +21,6 @@ The repository includes a `Makefile` for easy compilation.
     ```
 
 3.  This will use the `g++` compiler (with `-std=c++11` and `-Wall`) to build the executable file named `calculator`.
-
----
 
 ## How to Run
 
