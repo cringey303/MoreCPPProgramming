@@ -9,9 +9,7 @@ This is a C++ program that implements string-based arithmetic operations in C++ 
 * **Custom Validation:** Validates each number string with strict formatting rules (`(+|-)A(.B)`) without using `try-catch` or standard conversion functions.
 * **Error Handling:** Detects and reports bad file and invalid number formats.
 
-## How to Build
-
-The repository includes a `Makefile` for easy compilation.
+## How to Run
 
 1.  Open your terminal and navigate to the `lab10` directory.
 2.  Run the `make` command:
@@ -22,17 +20,15 @@ The repository includes a `Makefile` for easy compilation.
 
 3.  This will use the `g++` compiler (with `-std=c++11` and `-Wall`) to build the executable file named `calculator`.
 
-## How to Run
-
 Once built, you can run the program from your terminal.
 
-1.  Execute the program:
+4.  Execute the program:
 
     ```bash
     ./calculator
     ```
 
-2.  The program will then prompt you to enter the name of the file containing the test cases (e.g., `input.txt`).
+5.  The program will then prompt you to enter the name of the file containing the test cases (e.g., `input.txt`).
 
 ### Example Usage
 
